@@ -45,23 +45,27 @@
 
 ## ThrottleStop
 
-- Check CPU microcode version and apply 0x12B or newer if exists
+- **Check CPU microcode version and apply 0x12B or newer if exists**
 
 - FIVR
   
   - P Cores @ 3.5 GHz -129.9mV
   
   - E Cores @ 3.0 GHz -150.4mV
+  
+  - Thermal Velocity Boost: OFF
+  
+  - Ring Down Bin: OFF
 
 - TPL
   
-  - Long power 55W Clamp
+  - Long power 45W Clamp
   
-  - Short power 55W Clamp
+  - Short power 45W Clamp
 
 ## MSI Afterburner
 
-- 2400MHz @ 875mV
+- 2100MHz @ 800mV
 
 ## Custom Resolution Utility
 
@@ -128,11 +132,3 @@
 - V-Sync: OFF
 
 - NVidia Reflex: ON + BOOST
-
-## Crucial information for competitive FPS gamers
-
-As a rule of thumb, turn down all the graphics settings ingame to maximize performance.
-
-Monitor your GPU core clock while playing.
-
-If your GPU core clock drops down from the maximum value, turn your game graphics settings UP in little steps until it's stable.

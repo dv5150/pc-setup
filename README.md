@@ -51,7 +51,7 @@
   
   - P Cores @ 3.5 GHz -129.9mV
   
-  - E Cores @ 3.0 GHz -150.4mV
+  - E Cores @ 3.0 GHz -129.9mV
   
   - Thermal Velocity Boost: OFF
   

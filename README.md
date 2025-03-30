@@ -6,7 +6,7 @@
 
 - LG UltraGear 27GR83Q-B @ 240Hz
 
-- Durgod Taurus K310 (Cherry MX Red)
+- Durgod Taurus K310 (Cherry MX2A Silent Red)
 
 - Endgame Gear XM2 8K @ 800 DPI, 1000 Hz
 

@@ -16,6 +16,8 @@
 - Unlock undervolting
 - Unlock CFG
 - Disable hyperthreading
+- Set PCIe and DMI ASPM values everywhere to L0sL1 if possible, otherwise set to L1
+- Reduce DMI Link Speed everywhere [ASUS example](https://10pcg.com/what-is-aspm-in-bios/)
 
 ## Windows 11
 
@@ -31,31 +33,23 @@
 
 - Install NVidia driver with `NVCleanstall`
 
-- Install monitor driver
-
-- Enable HDR
-
 - Install `ThrottleStop`
 
 - Install `MSI Afterburner` + `RivaTuner Statistics Server`
 
-- Install `Custom Resolution Utility`
-
-- Mouse -> Enhance pointer precision: off
-
 ## ThrottleStop
-
-- **Check CPU microcode version and apply 0x12B or newer if exists**
 
 - FIVR
   
-  - P Cores @ 3.5 GHz -129.9mV
+  - P Cores @ 4.0 GHz
   
-  - E Cores @ 3.0 GHz -129.9mV
-  
-  - Thermal Velocity Boost: OFF
-  
-  - Ring Down Bin: OFF
+  - E Cores @ 3.0 GHz
+
+  - Undervolt [CPU Core / CPU P Cache / CPU E Cache] @ -100.6 mV
+
+  - CPU Core IccMax @ 215.00 A
+
+  - Cache Ratio: Min 35 / Max 40
 
 - TPL
   
@@ -65,11 +59,7 @@
 
 ## MSI Afterburner
 
-- 2100MHz @ 800mV
-
-## Custom Resolution Utility
-
-- Set VRR range to 1-240Hz
+- 2200MHz @ 850mV
 
 ## NVidia Control Panel
 
@@ -85,11 +75,13 @@
 
 - Low latency mode: Ultra
 
-- Monitor Technology: G-Sync
+- Monitor Technology: Fixed Refresh
 
-- Vertical sync: On
+- Vertical sync: Off
 
 - Background frame rate: 30 FPS
+
+- Max frame rate: 240 FPS
 
 - Power management: Normal
 
@@ -100,24 +92,6 @@
 - Use nvidia color settings
   
   - 12bpc
-
-`Adjust desktop color settings`
-
-- Digital vibrance (if HDR is washed): 55-60%
-
-`Set up digital audio`
-
-- HDMI: Turn off audio
-
-`Adjust desktop size and composition`
-
-- Scaling mode: Full screen
-
-`Set up G-SYNC`
-
-* Enable G-Sync, G-Sync compatible: ON
-* Enable for full screen mode
-* Select monitor -> Enable settings for the selected display model
 
 ## Steam
 

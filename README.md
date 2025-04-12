@@ -8,7 +8,7 @@
 
 - Durgod Taurus K310 (Cherry MX2A Silent Red)
 
-- Endgame Gear XM2 8K @ 800 DPI, 1000 Hz
+- Zowie FK2-C @ 800 DPI, 1000 Hz
 
 ## BIOS
 

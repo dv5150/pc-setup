@@ -45,9 +45,15 @@
   
   - E Cores @ 3.0 GHz
 
-  - Undervolt [CPU Core / CPU P Cache / CPU E Cache] @ -100.6 mV
+  - Undervolt [ CPU Core / CPU P Cache / CPU E Cache ] @ -125.0 mV
+ 
+  - Undervolt [ Intel GPU ] @ -49.8 mV
+ 
+  - Undervolt [ System Agent ] @ -40.0 mV
 
   - CPU Core IccMax @ 215.00 A
+ 
+  - CPU P Cache - Cache Ratio: 40
 
   - Cache Ratio: Min 35 / Max 40
 

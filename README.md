@@ -45,7 +45,7 @@
   
   - E Cores @ 3.0 GHz
 
-  - Undervolt [ CPU Core / CPU P Cache / CPU E Cache ] @ -125.0 mV
+  - Undervolt [ CPU Core / CPU P Cache / CPU E Cache ] @ -129.9 mV
  
   - Undervolt [ Intel GPU ] @ -49.8 mV
  
@@ -67,6 +67,10 @@
 
 - 2200MHz @ 850mV
 
+## RivaTuner Statistics Server
+
+- Limit frame rate: 240 FPS
+
 ## NVidia Control Panel
 
 `Adjust image settings with preview`
@@ -87,7 +91,7 @@
 
 - Background frame rate: 30 FPS
 
-- Max frame rate: 240 FPS
+- Max frame rate: Unlimited
 
 - Power management: Normal
 

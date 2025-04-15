@@ -45,7 +45,7 @@
   
   - E Cores @ 3.0 GHz
 
-  - Undervolt [ CPU Core / CPU P Cache / CPU E Cache ] @ -129.9 mV
+  - Undervolt [ CPU Core / CPU P Cache / CPU E Cache ] @ -139.6 mV
  
   - Undervolt [ Intel GPU ] @ -49.8 mV
  
@@ -65,7 +65,7 @@
 
 ## MSI Afterburner
 
-- 2200MHz @ 850mV
+- 2100MHz @ 825mV
 
 ## RivaTuner Statistics Server
 

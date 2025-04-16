@@ -67,10 +67,6 @@
 
 - 2100MHz @ 825mV
 
-## RivaTuner Statistics Server
-
-- Limit frame rate: 240 FPS
-
 ## NVidia Control Panel
 
 `Adjust image settings with preview`
@@ -91,7 +87,7 @@
 
 - Background frame rate: 30 FPS
 
-- Max frame rate: Unlimited
+- Max frame rate: 240 FPS
 
 - Power management: Normal
 

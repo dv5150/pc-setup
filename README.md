@@ -81,13 +81,13 @@
 
 - Low latency mode: Ultra
 
-- Monitor Technology: Fixed Refresh
+- Monitor Technology: G-Sync
 
-- Vertical sync: Off
+- Vertical sync: On
 
 - Background frame rate: 30 FPS
 
-- Max frame rate: 240 FPS
+- Max frame rate: Off
 
 - Power management: Normal
 
@@ -112,3 +112,7 @@
 - V-Sync: OFF
 
 - NVidia Reflex: ON + BOOST
+
+## Fix Reaper audio crackling when in background:
+
+`powercfg /powerthrottling disable /path "C:\Program Files\REAPER (x64)\reaper.exe"`

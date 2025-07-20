@@ -15,7 +15,6 @@
 - Unlock overclocking
 - Unlock undervolting
 - Unlock CFG
-- Disable hyperthreading
 - Set PCIe and DMI ASPM values everywhere to L0sL1 if possible, otherwise set to L1
 - Reduce DMI Link Speed everywhere [ASUS example](https://10pcg.com/what-is-aspm-in-bios/)
 

@@ -115,3 +115,4 @@
 ## Fix Reaper audio crackling when in background:
 
 `powercfg /powerthrottling disable /path "C:\Program Files\REAPER (x64)\reaper.exe"`
+`powercfg /powerthrottling disable /path "C:\Program Files\Arobas Music\Guitar Pro 8\GuitarPro.exe"`

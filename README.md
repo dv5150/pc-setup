@@ -15,14 +15,15 @@
 - Unlock overclocking
 - Unlock undervolting
 - Unlock CFG
-- Set PCIe and DMI ASPM values everywhere to L0sL1 if possible, otherwise set to L1
-- Reduce DMI Link Speed everywhere [ASUS example](https://10pcg.com/what-is-aspm-in-bios/)
+- Reduce DMI Link Speed to slowest possible to reduce PCH heat
 
 ## Windows 11
 
 - Install Windows -> Time and currency format -> English (World)
 
 - Install Windows updates -> reboot -> repeat
+
+- Disable `Memory Integrity`, `Kernel-mode Hardware-enforced Stack Protection`, `Local Security Authority Protection` and `Microsoft Vulnerable Driver Blocklist`
 
 - Use ChrisTitus Windows 11 tool to optimize stuff (Run PowerShell as admin):
   
@@ -35,6 +36,8 @@
 - Install `ThrottleStop`
 
 - Install `MSI Afterburner` + `RivaTuner Statistics Server`
+
+- Install `Revo Uninstaller`
 
 ## ThrottleStop
 
@@ -114,5 +117,7 @@
 
 ## Fix Reaper audio crackling when in background:
 
-`powercfg /powerthrottling disable /path "C:\Program Files\REAPER (x64)\reaper.exe"`
-`powercfg /powerthrottling disable /path "C:\Program Files\Arobas Music\Guitar Pro 8\GuitarPro.exe"`
+- `powercfg /powerthrottling disable /path "C:\Program Files\REAPER (x64)\reaper.exe"`
+- `powercfg /powerthrottling disable /path "C:\Program Files\Arobas Music\Guitar Pro 8\GuitarPro.exe"`
+- Use ProcessLasso to set CPU affinity (4 cores) and High I/O priority on Reaper and Guitar Pro
+- Unpark CPU cores

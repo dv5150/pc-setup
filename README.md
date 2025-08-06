@@ -15,7 +15,8 @@
 - Unlock overclocking
 - Unlock undervolting
 - Unlock CFG
-- Reduce DMI Link Speed to slowest possible to reduce PCH heat
+- Reduce DMI Link Speed to slowest possible value
+- CPU Power Management Control -> Turbo Mode -> Disabled
 
 ## Windows 11
 

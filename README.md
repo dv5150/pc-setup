@@ -100,7 +100,7 @@
 
 - Use nvidia color settings
   
-  - 12bpc
+  - 10bpc
 
 ## Steam
 

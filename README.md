@@ -12,11 +12,16 @@
 
 ## BIOS
 
-- Unlock overclocking
-- Unlock undervolting
-- Unlock CFG
-- Reduce DMI Link Speed to slowest possible value
-- CPU Power Management Control -> Turbo Mode -> Disabled
+- Enabling undervolting:
+  - Unlock overclocking
+  - Unlock undervolting
+  - Unlock CFG
+
+- Fixing PCH temperature
+  - Reduce DMI Link Speed to slowest possible value
+  - Set PCI Express Root Port #1 and #3 speed to Gen 1
+  - Set PCI Express Root Port #2 speed to Gen 3
+  - Set all other enabled PCI Express ports' speed to Gen 2
 
 ## Windows 11
 
@@ -95,12 +100,6 @@
 - Power management: Normal
 
 - Texture filtering quality: High performance
-
-`Change resolution`
-
-- Use nvidia color settings
-  
-  - 10bpc
 
 ## Steam
 

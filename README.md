@@ -12,12 +12,12 @@
 
 ## BIOS
 
-- Enabling undervolting:
+- Enable undervolting:
   - Unlock overclocking
   - Unlock undervolting
   - Unlock CFG
 
-- Fixing PCH temperature
+- Fix PCH temperature:
   - Reduce DMI Link Speed to slowest possible value
   - Set PCI Express Root Port #1 and #3 speed to Gen 1
   - Set PCI Express Root Port #2 speed to Gen 3

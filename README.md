@@ -21,7 +21,7 @@
   - Reduce DMI Link Speed to slowest possible value
   - Set PCI Express Root Port #1 and #3 speed to Gen 1
   - Set PCI Express Root Port #2 speed to Gen 3
-  - Set all other enabled PCI Express ports' speed to Gen 2
+  - Set all other enabled PCI Express ports' speed to Gen 1
 
 ## Windows 11
 
@@ -115,9 +115,10 @@
 
 - NVidia Reflex: ON + BOOST
 
-## Fix Reaper audio crackling when in background:
+## Fix DPC latency:
 
 - `powercfg /powerthrottling disable /path "C:\Program Files\REAPER (x64)\reaper.exe"`
 - `powercfg /powerthrottling disable /path "C:\Program Files\Arobas Music\Guitar Pro 8\GuitarPro.exe"`
-- Use ProcessLasso to set CPU affinity (4 cores) and High I/O priority on Reaper and Guitar Pro
+- Use `ProcessLasso` to set CPU affinity (4 cores) and High I/O priority on Reaper and Guitar Pro
+- Use `PowerSettingsExplorer` to disable `Processor Idle Demote Threshold` and `Processor Idle Promote Threshold`
 - Unpark CPU cores

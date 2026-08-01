@@ -4,7 +4,7 @@
 
 - MSI Vector 16 HX (i7-14700HX + RTX 4080 175W)
 
-- LG UltraGear 27GR83Q-B @ 240Hz
+- LG UltraGear 27GR83Q-B @ 144Hz
 
 - Durgod Taurus K310 (Cherry MX2A Silent Red)
 

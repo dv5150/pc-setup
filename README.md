@@ -107,8 +107,6 @@
 
 ## In-game
 
-- (Exclusive) Fullscreen
-
 - Max frame rate: unlimited (or highest possible)
 
 - V-Sync: OFF

@@ -75,6 +75,10 @@
 
 - 2100MHz @ 825mV
 
+## RivaTuner
+
+- 144 FPS cap
+
 ## NVidia Control Panel
 
 `Adjust image settings with preview`
@@ -89,9 +93,9 @@
 
 - Low latency mode: Ultra
 
-- Monitor Technology: G-Sync
+- G-Sync: Off
 
-- Vertical sync: On
+- Vertical sync: Off
 
 - Background frame rate: 30 FPS
 
@@ -100,10 +104,6 @@
 - Power management: Normal
 
 - Texture filtering quality: High performance
-
-## Steam
-
-- Run as administrator
 
 ## In-game
 

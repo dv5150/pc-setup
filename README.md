@@ -77,7 +77,7 @@
 
 ## RivaTuner
 
-- 144 FPS cap
+- Use this to cap your FPS in games instead of the built in option
 
 ## NVidia Control Panel
 
@@ -91,7 +91,7 @@
 
 `Manage 3D Settings`
 
-- Low latency mode: Ultra
+- Low latency mode: Off if game supports NVidia Reflex, otherwise Ultra
 
 - G-Sync: Off
 
@@ -111,7 +111,7 @@
 
 - V-Sync: OFF
 
-- NVidia Reflex: ON + BOOST
+- NVidia Reflex: ON + BOOST (set low latency mode to Ultra in NVidia driver settings if Reflex is not supported)
 
 ## Fix DPC latency:
 

@@ -77,7 +77,7 @@
 
 ## RivaTuner
 
-- Use this to cap your FPS in games instead of the built in option
+- Use this to cap your FPS in games instead of the built in option, cap it to the highest stable value
 
 ## NVidia Control Panel
 

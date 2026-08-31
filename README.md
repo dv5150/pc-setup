@@ -87,7 +87,7 @@
 
 2. Use the advanced 3D image settings
 
-3. Click "take me there""
+3. Click "take me there"
 
 `Manage 3D Settings`
 

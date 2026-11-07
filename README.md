@@ -113,9 +113,9 @@
 
 ## Overwatch
 
-- Set all graphics settings to lowest quality (off, where possible), **yes, also Render Scale -> Custom -> 50%**
+- Set all graphics settings to lowest quality (off, where possible) - **yes, also Render Scale -> Custom -> 50% | no, you can't have the texture quality/filtering higher either**
 
-- Set **Reduce Buffering** to **OFF** - yes, this is counter intuitive I know
+- Set Reduce Buffering to OFF - **yes, this is counter intuitive I know**
 
 - Use Exclusive Fullscreen mode
 

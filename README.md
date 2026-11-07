@@ -10,6 +10,10 @@
 
 - Zowie FK2-C @ 800 DPI, 1000 Hz
 
+- AKG K712 Pro
+
+- Focusrite Scarlett 2i2 Anniversary Edition
+
 ## BIOS
 
 - Enable undervolting:
@@ -77,7 +81,7 @@
 
 ## RivaTuner
 
-- Use this to cap your FPS in games instead of the built in option, cap it to the highest stable value
+- DO NOT USE SUCH TOOLS TO CAP FPS AS IT ADDS INPUT LAG, USE THE INGAME FPS LIMITER INSTEAD
 
 ## NVidia Control Panel
 
@@ -105,9 +109,15 @@
 
 - Texture filtering quality: High performance
 
-## In-game
+## Overwatch
 
-- Max frame rate: unlimited (or highest possible)
+- Set all graphics settings to lowest quality (off, where possible), **yes, also Render Scale -> Custom -> 50%**
+
+- Set **Reduce Buffering** to **OFF** - yes, this is counter intuitive I know
+
+- Use Exclusive Fullscreen mode
+
+- Max frame rate: find the highest value that's rock stable
 
 - V-Sync: OFF
 

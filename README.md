@@ -49,6 +49,8 @@
 
 - Install `Revo Uninstaller`
 
+- Disable HPET
+
 ## ThrottleStop
 
 - FIVR
@@ -122,6 +124,8 @@
 - V-Sync: OFF
 
 - NVidia Reflex: ON + BOOST (set low latency mode to Ultra in NVidia driver settings if Reflex is not supported)
+
+- Use `ProcessLasso` to set high CPU priority on Overwatch.exe
 
 ## Fix DPC latency:
 

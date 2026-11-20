@@ -4,7 +4,7 @@
 
 - MSI Vector 16 HX (i7-14700HX + RTX 4080 175W)
 
-- LG UltraGear 27GR83Q-B @ 144Hz
+- LG UltraGear 27GR83Q-B @ 240Hz
 
 - Durgod Taurus K310 (Cherry MX2A Silent Red)
 
@@ -42,6 +42,8 @@
 - Uninstall NVidia driver with `Display Driver Uninstaller` if there's any
 
 - Install NVidia driver with `NVCleanstall`
+
+- Disable NVidia Audio Driver in device manager
 
 - Install `ThrottleStop`
 

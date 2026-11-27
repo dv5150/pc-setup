@@ -99,7 +99,7 @@
 
 `Manage 3D Settings`
 
-- Low latency mode: Off if game supports NVidia Reflex, otherwise Ultra
+- Low latency mode: Ultra
 
 - G-Sync: Off
 
@@ -115,9 +115,9 @@
 
 ## Overwatch
 
-- Set all graphics settings to lowest quality (off, where possible) - **yes, also Render Scale -> Custom -> 50% | no, you can't have the texture quality/filtering higher either**
+- Set all graphics settings to lowest quality (off, where possible) - Render Scale -> Custom -> 50%
 
-- Set Reduce Buffering to OFF - **yes, this is counter intuitive I know**
+- Set Reduce Buffering to OFF
 
 - Use Exclusive Fullscreen mode
 
@@ -125,7 +125,7 @@
 
 - V-Sync: OFF
 
-- NVidia Reflex: ON + BOOST (set low latency mode to Ultra in NVidia driver settings if Reflex is not supported)
+- NVidia Reflex: Enabled
 
 - Use `ProcessLasso` to set high CPU priority on Overwatch.exe
 
